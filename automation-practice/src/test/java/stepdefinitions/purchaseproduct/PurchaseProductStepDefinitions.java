@@ -17,15 +17,10 @@ import static userinterfaces.shoppingcart.SuccessfulPurchasePage.BACK_HOME_BUTTO
 public class PurchaseProductStepDefinitions {
 
 
-
-
-
     @Before
     public void setTheStage(){
         OnStage.setTheStage(new OnlineCast());
     }
-
-
 
     @When("the user successfully purchases items from the store")
     public void theUserSuccessfullyPurchasesItemsFromTheStore() {
