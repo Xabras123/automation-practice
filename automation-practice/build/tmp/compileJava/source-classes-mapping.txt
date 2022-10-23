@@ -1,0 +1,78 @@
+userinterfaces/HomePage.java
+ userinterfaces.HomePage
+questions/transversal/AnItemSuccessfullyAddedToTheShoppingCartModalAppears.java
+ questions.transversal.AnItemSuccessfullyAddedToTheShoppingCartModalAppears
+userinterfaces/loginpage/LoginPage.java
+ userinterfaces.loginpage.LoginPage
+interactions/NavigateThroughMenu.java
+ interactions.NavigateThroughMenu
+questions/checkout/TheItemIsNoLongerOnTheCheckout.java
+ questions.checkout.TheItemIsNoLongerOnTheCheckout
+model/entities/HeaderMenuEnum.java
+ model.entities.HeaderMenuEnum
+userinterfaces/global/ShoppingCartMiniMenu.java
+ userinterfaces.global.ShoppingCartMiniMenu
+userinterfaces/product/ProductSumaryPage.java
+ userinterfaces.product.ProductSumaryPage
+tasks/purchaseproduct/AddItemToTheShoppingCartFromMiniature.java
+ tasks.purchaseproduct.AddItemToTheShoppingCartFromMiniature
+userinterfaces/StoreHomeHeader.java
+ userinterfaces.StoreHomeHeader
+userinterfaces/shoppingcart/CheckoutInformationPage.java
+ userinterfaces.shoppingcart.CheckoutInformationPage
+interactions/TapTheButton.java
+ interactions.TapTheButton
+exceptions/TheElementNotVisibleError.java
+ exceptions.TheElementNotVisibleError
+questions/transversal/ElementsAppearOnScreen.java
+ questions.transversal.ElementsAppearOnScreen
+tasks/logintotheaccount/FillTheLoginForm.java
+ tasks.logintotheaccount.FillTheLoginForm
+userinterfaces/global/AutomationPracticeHeader.java
+ userinterfaces.global.AutomationPracticeHeader
+tasks/purchaseproduct/AddItemToTheShoppingCartFromPrevisualization.java
+ tasks.purchaseproduct.AddItemToTheShoppingCartFromPrevisualization
+userinterfaces/useraccountpage/UserAccountPage.java
+ userinterfaces.useraccountpage.UserAccountPage
+model/entities/CheckoutInformationData.java
+ model.entities.CheckoutInformationData
+userinterfaces/shoppingcart/ItemAddedToShopingCartReward.java
+ userinterfaces.shoppingcart.ItemAddedToShopingCartReward
+userinterfaces/shoppingcart/AddressInformationConfirmationPage.java
+ userinterfaces.shoppingcart.AddressInformationConfirmationPage
+tasks/purchaseproduct/NavigateToTheCheckoutScreen.java
+ tasks.purchaseproduct.NavigateToTheCheckoutScreen
+model/entities/login/AuthenticationData.java
+ model.entities.login.AuthenticationData
+tasks/purchaseproduct/ConfirmShipping.java
+ tasks.purchaseproduct.ConfirmShipping
+model/entities/ErrorMessagesEnum.java
+ model.entities.ErrorMessagesEnum
+questions/transversal/AnErrorToastAppears.java
+ questions.transversal.AnErrorToastAppears
+model/entities/ManageCheckoutItemOptionsEnum.java
+ model.entities.ManageCheckoutItemOptionsEnum
+userinterfaces/shoppingcart/ConfirmPurchasePage.java
+ userinterfaces.shoppingcart.ConfirmPurchasePage
+userinterfaces/shoppingcart/ShippingInformationPage.java
+ userinterfaces.shoppingcart.ShippingInformationPage
+tasks/purchaseproduct/ManageItemFromCheckoutScreen.java
+ tasks.purchaseproduct.ManageItemFromCheckoutScreen
+tasks/purchaseproduct/ConfirmTheTransaction.java
+ tasks.purchaseproduct.ConfirmTheTransaction
+questions/logintothaccount/ItWasRedirectedToTheUserAccountScreen.java
+ questions.logintothaccount.ItWasRedirectedToTheUserAccountScreen
+tasks/purchaseproduct/ConfirmAddress.java
+ tasks.purchaseproduct.ConfirmAddress
+tasks/purchaseproduct/ConfirmOrder.java
+ tasks.purchaseproduct.ConfirmOrder
+tasks/purchaseproduct/ProceedToCheckout.java
+ tasks.purchaseproduct.ProceedToCheckout
+tasks/purchaseproduct/SelectsThePaymentMethod.java
+ tasks.purchaseproduct.SelectsThePaymentMethod
+userinterfaces/shoppingcart/SelectPaymentMethodPage.java
+ userinterfaces.shoppingcart.SelectPaymentMethodPage
+userinterfaces/shoppingcart/SuccessfulPurchasePage.java
+ userinterfaces.shoppingcart.SuccessfulPurchasePage
+questions/checkout/ItWasRedirectedToTheSuccessfulPaymentScreen.java
+ questions.checkout.ItWasRedirectedToTheSuccessfulPaymentScreen

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Purchase Automation Practice item" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-23T05:50:37" hostname="CPX-5B8R5N6U7QX" time="140.039">
+  <properties/>
+  <testcase name="The user successfully purchases items from the Automation Practice store" classname="Purchase Automation Practice item" time="140.039"/>
+  <system-out><![CDATA[00:50:37.690 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+The user successfully purchases items from the Automation Practice store(purchase-automation-practice-item;the-user-successfully-purchases-items-from-the-automation-practice-store)
+-------------------------------------------------------------------
+00:50:38.722 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LogIntoTheAutomationPracticeAccountStepDefinitions.thatTheUserAuthenticatesWithTheUsernameStandardUserAndThePasswordSecret_sauce - {0} opens the #targetPage
+00:50:39.822 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+00:50:39.822 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --lang=es,--disable-popup-b..., goog:chromeOptions: {args: [--lang=es, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorizeplugins, --disable-extensions, --disable-notifications], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+00:50:51.807 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+00:50:51.808 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+00:50:52.834 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\1e48067d91911c3cc094b817f0ba9da15abc32b36c1e77ec13b2d2af55bafa13.png
+00:50:52.900 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+00:50:53.689 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\1e48067d91911c3cc094b817f0ba9da15abc32b36c1e77ec13b2d2af55bafa13.png
+00:50:53.692 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LogIntoTheAutomationPracticeAccountStepDefinitions.thatTheUserAuthenticatesWithTheUsernameStandardUserAndThePasswordSecret_sauce - performAs
+00:50:53.717 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SIGN IN BUTTON
+00:50:53.886 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SIGN IN BUTTON
+00:50:55.056 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\1e48067d91911c3cc094b817f0ba9da15abc32b36c1e77ec13b2d2af55bafa13.png
+00:50:55.057 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:50:55.059 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SIGN IN BUTTON
+00:50:59.611 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b243f988347ef8603f210e2d34a7f0a5b7e1bd1de4bb3dbc0e4dfa8fda7e6339.png
+00:50:59.612 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:50:59.632 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:50:59.975 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b243f988347ef8603f210e2d34a7f0a5b7e1bd1de4bb3dbc0e4dfa8fda7e6339.png
+00:50:59.975 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LogIntoTheAutomationPracticeAccountStepDefinitions.thatTheUserAuthenticatesWithTheUsernameStandardUserAndThePasswordSecret_sauce - performAs
+00:51:00.054 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TEXT INPUT FOR THE USERNAME CREDENTIALS
+00:51:00.497 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b243f988347ef8603f210e2d34a7f0a5b7e1bd1de4bb3dbc0e4dfa8fda7e6339.png
+00:51:00.498 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FillTheLoginForm.performAs - {0} enters #theTextAsAString into #target
+00:51:00.499 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TEXT INPUT FOR THE USERNAME CREDENTIALS
+00:51:01.743 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e43572710e6eaac5f6b47e78ab662d156e471d78ddabcd7c74d026fe2ace8881.png
+00:51:01.744 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+00:51:01.750 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TEXT INPUT FOR THE PASSWORD CREDENTIALS
+00:51:02.155 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e62dae35cd43945bf7cb1696253eaec5c73d341cf82402f68369b4180ba0a9b6.png
+00:51:02.156 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8843019651812230286
+00:51:02.156 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FillTheLoginForm.performAs - {0} enters #theTextAsAString into #target
+00:51:02.156 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e62dae35cd43945bf7cb1696253eaec5c73d341cf82402f68369b4180ba0a9b6.png
+00:51:02.156 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TEXT INPUT FOR THE PASSWORD CREDENTIALS
+00:51:03.644 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\af41a01191cf7eee99229ffa23ce4d9b9a8742ff7d18f6d1271c5125c0217dbd.png
+00:51:03.645 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+00:51:03.669 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FillTheLoginForm.performAs - performAs
+00:51:03.683 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for LOGIN BUTTON
+00:51:03.843 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for LOGIN BUTTON
+00:51:04.275 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\3e5501af00d7d9692333d121c126ab33a69d3426c596434a293b725a7c33b3a6.png
+00:51:04.276 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5315955158402912134
+00:51:04.276 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:51:04.277 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\3e5501af00d7d9692333d121c126ab33a69d3426c596434a293b725a7c33b3a6.png
+00:51:04.277 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for LOGIN BUTTON
+00:51:44.832 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\cd11907c5e8ff3611d869887af625125def48749de4af3447ab9d9093de66351.png
+00:51:44.833 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:51:44.850 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:44.867 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:45.104 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\cd11907c5e8ff3611d869887af625125def48749de4af3447ab9d9093de66351.png
+00:51:45.104 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LogIntoTheAutomationPracticeAccountStepDefinitions.thatTheUserAuthenticatesWithTheUsernameStandardUserAndThePasswordSecret_sauce - performAs
+00:51:45.116 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for HOME BUTTON
+00:51:45.231 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for HOME BUTTON
+00:51:45.522 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\cd11907c5e8ff3611d869887af625125def48749de4af3447ab9d9093de66351.png
+00:51:45.523 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:51:45.524 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for HOME BUTTON
+00:51:50.708 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\f06bae2494a8c28943f4c7d26babc43c966c613943894d5d73bce6d52a5539b4.png
+00:51:50.708 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:51:50.727 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:51.561 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\f06bae2494a8c28943f4c7d26babc43c966c613943894d5d73bce6d52a5539b4.png
+00:51:51.599 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddItemToShoppingCartStepDefinitions.theUserSuccessfullyAddsAnItemFromTheMiniatureToTheShoppingCart - performAs
+00:51:51.613 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ITEM IMAGE BUTTON
+00:51:52.312 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\84e8c14a61cf180399d68e4824fd2ed3ac7657a29b985b41c316de2b020771ec.png
+00:51:52.313 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddItemToTheShoppingCartFromMiniature.performAs - performAs
+00:51:52.324 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ADD ITEM TO SHOPPING CART BUTTON
+00:51:52.478 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ADD ITEM TO SHOPPING CART BUTTON
+00:51:52.894 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\8562cf8ade1de917b74d6ca9f0f23619d05ed08f409a34fbb8402ffb2c636026.png
+00:51:52.895 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:51:52.895 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7890707771554357064
+00:51:52.895 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\8562cf8ade1de917b74d6ca9f0f23619d05ed08f409a34fbb8402ffb2c636026.png
+00:51:52.896 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ADD ITEM TO SHOPPING CART BUTTON
+00:51:53.469 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\776011c3f231fe3708aa6d8cf2de5a412406aefa8fd841061962b308073b918a.png
+00:51:53.470 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:51:53.492 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:53.511 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:53.831 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\776011c3f231fe3708aa6d8cf2de5a412406aefa8fd841061962b308073b918a.png
+00:51:54.225 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\776011c3f231fe3708aa6d8cf2de5a412406aefa8fd841061962b308073b918a.png
+00:51:54.227 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:51:54.238 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for CONTINUE SHOPPING BUTTON
+00:51:54.352 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for CONTINUE SHOPPING BUTTON
+00:51:56.265 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\4dea21570d5287b9dffef13f0e29aef4ff5cec64905fcb7612d610c59d52e51d.png
+00:51:56.266 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:51:56.266 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-733514526931370942
+00:51:56.266 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\4dea21570d5287b9dffef13f0e29aef4ff5cec64905fcb7612d610c59d52e51d.png
+00:51:56.267 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for CONTINUE SHOPPING BUTTON
+00:51:56.878 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\cec72a7f435b3a562239c112f9325dd13d45dc9c913f51f0ca31beb0501535f0.png
+00:51:56.878 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:51:56.878 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-30097458452979171
+00:51:56.878 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\cec72a7f435b3a562239c112f9325dd13d45dc9c913f51f0ca31beb0501535f0.png
+00:51:56.898 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:51:56.918 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:51:56.938 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SHOPPING CART MENU BUTTON
+00:51:57.778 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\50fe821e021b15940aaf76f820394d7f0a2890d07b580383aafd381944b15c0a.png
+00:51:57.779 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NavigateToTheCheckoutScreen.performAs - performAs
+00:51:57.779 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7029608541109599587
+00:51:57.779 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\50fe821e021b15940aaf76f820394d7f0a2890d07b580383aafd381944b15c0a.png
+00:51:57.786 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SHOPPING CART MENU BUTTON
+00:51:57.863 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SHOPPING CART MENU BUTTON
+00:51:58.479 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\fd01d07110ff3a3225cf9782d85b76c71eb28060a984d6594c8f18528d2fc455.png
+00:51:58.479 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:51:58.480 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SHOPPING CART MENU BUTTON
+00:52:07.584 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b0f98591cdfb5464c795927ac804fd40ef7df98bc5a47226b8e2091eb4a3ee93.png
+00:52:07.585 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:07.601 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:07.628 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:07.879 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b0f98591cdfb5464c795927ac804fd40ef7df98bc5a47226b8e2091eb4a3ee93.png
+00:52:07.880 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:52:07.904 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ProceedToCheckout.performAs - performAs
+00:52:07.913 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:08.024 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:08.378 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\b0f98591cdfb5464c795927ac804fd40ef7df98bc5a47226b8e2091eb4a3ee93.png
+00:52:08.378 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:08.379 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:11.894 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\5a041924101b9d2072ebaab42d0928317b45605e1bfa9e92d281dd0316f96036.png
+00:52:11.894 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:11.909 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:11.927 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:12.202 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\5a041924101b9d2072ebaab42d0928317b45605e1bfa9e92d281dd0316f96036.png
+00:52:12.203 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:52:12.231 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ConfirmAddress.performAs - performAs
+00:52:12.241 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:12.378 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:12.752 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\5a041924101b9d2072ebaab42d0928317b45605e1bfa9e92d281dd0316f96036.png
+00:52:12.753 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:12.754 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:20.671 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\168fdb331edf098aae3ed55cd113fa54b915c033e130aa514b8b7c48e53c4055.png
+00:52:20.672 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:20.688 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:20.707 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:20.924 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\168fdb331edf098aae3ed55cd113fa54b915c033e130aa514b8b7c48e53c4055.png
+00:52:20.924 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:52:20.957 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ConfirmShipping.performAs - performAs
+00:52:20.964 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TERMS AND CONDITIONS BUTTON
+00:52:21.078 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TERMS AND CONDITIONS BUTTON
+00:52:21.395 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\168fdb331edf098aae3ed55cd113fa54b915c033e130aa514b8b7c48e53c4055.png
+00:52:21.396 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:21.396 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for TERMS AND CONDITIONS BUTTON
+00:52:21.979 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\1caf0a00e6e2f69fa81bdcc6a2f82cebb04d0949f59f90c70bbda57fde754d45.png
+00:52:21.979 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:22.000 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:22.022 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ConfirmShipping.performAs - performAs
+00:52:22.034 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:22.160 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:22.563 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\1caf0a00e6e2f69fa81bdcc6a2f82cebb04d0949f59f90c70bbda57fde754d45.png
+00:52:22.563 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:22.565 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:36.288 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\3b05c430429fe67aeb687c3d0cea235c31269f5335c5d582d8abe55c47fd34b7.png
+00:52:36.288 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:36.302 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:36.313 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:36.323 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:52:36.558 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\3b05c430429fe67aeb687c3d0cea235c31269f5335c5d582d8abe55c47fd34b7.png
+00:52:36.558 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SelectsThePaymentMethod.performAs - performAs
+00:52:36.565 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PAYMENT BY BANK WIRE BUTTON
+00:52:36.658 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PAYMENT BY BANK WIRE BUTTON
+00:52:36.956 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\3b05c430429fe67aeb687c3d0cea235c31269f5335c5d582d8abe55c47fd34b7.png
+00:52:36.957 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:36.957 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PAYMENT BY BANK WIRE BUTTON
+00:52:40.406 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\8b4d85142b6063b854f764e59ecb247143659d43af93e5f34952cc2a3c3a7889.png
+00:52:40.407 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:40.425 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:40.441 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:40.682 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\8b4d85142b6063b854f764e59ecb247143659d43af93e5f34952cc2a3c3a7889.png
+00:52:40.683 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserSuccessfullyPurchasesItemsFromTheStore - performAs
+00:52:40.702 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ConfirmOrder.performAs - performAs
+00:52:40.711 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:40.798 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:41.188 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\8b4d85142b6063b854f764e59ecb247143659d43af93e5f34952cc2a3c3a7889.png
+00:52:41.189 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:41.190 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for PROCEED TO CHECKOUT BUTTON
+00:52:47.934 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e01c42560c68c46fa7da587f64e7c8b8d6e9129515bf00409d6395b8b9730195.png
+00:52:47.935 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:47.953 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:47.971 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+00:52:48.242 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e01c42560c68c46fa7da587f64e7c8b8d6e9129515bf00409d6395b8b9730195.png
+00:52:48.734 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e01c42560c68c46fa7da587f64e7c8b8d6e9129515bf00409d6395b8b9730195.png
+00:52:48.750 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SUCCESSFUL PURCHASE TITLE
+00:52:48.835 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SUCCESSFUL PURCHASE TITLE
+00:52:48.911 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SUCCESSFUL PURCHASE INFO LABEL
+00:52:48.988 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for SUCCESSFUL PURCHASE INFO LABEL
+00:52:49.081 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BACK HOME BUTTON
+00:52:49.190 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BACK HOME BUTTON
+00:52:49.522 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e01c42560c68c46fa7da587f64e7c8b8d6e9129515bf00409d6395b8b9730195.png
+00:52:49.541 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PurchaseProductStepDefinitions.theUserShouldBeRedirectedToASuccessfulPaymentScreen - performAs
+00:52:49.548 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BACK HOME BUTTON
+00:52:49.636 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BACK HOME BUTTON
+00:52:49.951 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\e01c42560c68c46fa7da587f64e7c8b8d6e9129515bf00409d6395b8b9730195.png
+00:52:49.953 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TapTheButton.performAs - {0} clicks on #target
+00:52:49.953 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BACK HOME BUTTON
+00:52:57.672 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\596e1a4e4c470618cccd2dfd579a3206207364afab44391d3ad5bd085c7ecbf1.png
+00:52:57.673 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+00:52:57.673 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4765787878119320290
+00:52:57.673 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\work-space\pruebas\PruebaLiteThinking\automation-practice\automation-practice\target\site\serenity\596e1a4e4c470618cccd2dfd579a3206207364afab44391d3ad5bd085c7ecbf1.png
+00:52:57.684 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+]]></system-out>
+  <system-err><![CDATA[Oct 23, 2022 12:50:38 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 33282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 23, 2022 12:50:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
